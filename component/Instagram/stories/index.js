@@ -47,16 +47,15 @@ const Stories = () => (
     <View style={styles.reline} />
     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
       <View style={styles.container}>
-        {data.map((key) => (
+        {data.map(data => (
           <View style={{ width: 65, margin: 5, alignItems: "center" }}>
             <View style={styles.imageContainer}>
-              <Image style={styles.image} source={{ uri: key.imageUri }} />
+              <Image style={styles.image} source={{ uri: data.imageUri }} />
             </View>
             <Text style={{ fontSize: 11 }}>
-              {" "}
-              {key.name.length < 8
-                ? `${key.name}`
-                : `${key.name.substring(0, 10)}...`}
+              {data.name.length < 8
+                ? `${data.name}`
+                : `${data.name.substring(0, 10)}...`}
             </Text>
           </View>
         ))}

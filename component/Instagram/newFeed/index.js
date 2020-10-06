@@ -66,16 +66,16 @@ const data = [
 
 const NewFeed = () => (
   <View>
-    {data.map((key) => (
+    {data.map(data => (
       <View style={styles.container}>
         <View style={styles.headContainer}>
           <View style={styles.head}>
-            <Image style={styles.avatar} source={{ uri: key.avatar }}></Image>
-            <Text style={styles.title}>{key.name}</Text>
+            <Image style={styles.avatar}  source={{ uri: data.avatar }}/>
+            <Text style={styles.title}  >{data.name}</Text>
           </View>
           <Feather name="more-horizontal" size={20} color="black" />
         </View>
-        <Image style={styles.image} source={{ uri: key.image }} />
+        <Image style={styles.image}   source={{ uri: data.image }} />
         <View style={styles.footer}>
           <View style={{ flexDirection: "row" }}>
             <Feather style={styles.icon} name="heart" size={20} color="black" />
@@ -90,8 +90,8 @@ const NewFeed = () => (
 
           <Feather name="bookmark" size={20} color="black" />
         </View>
-        <Text style={styles.title}>{key.view}</Text>
-        <Text style={styles.textTime}>{key.time}</Text>
+        <Text style={styles.title} >{data.view}</Text>
+        <Text style={styles.textTime}>{data.time}</Text>
       </View>
     ))}
   </View>
