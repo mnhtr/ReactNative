@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     paddingVertical: 10,
     paddingHorizontal: 5,
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "#f2f2f24D",
   },
   imageContainer: {
     height: 63,
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     borderColor: "#ffffff",
   },
   reline: {
-    borderBottomColor: "#e6e6e6",
+    borderBottomColor: "#e6e6e6A6",
     borderBottomWidth: 1,
   },
 });
