@@ -6,6 +6,6 @@ import Instagram from "./component/Instagram/Instagram";
 
 export default function App() {
  //   return <Facebook />;
-   return <Momo/>;
+   return <Instagram/>;
 }
 

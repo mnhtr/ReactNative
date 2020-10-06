@@ -10,7 +10,7 @@ const data = [
     avatar: "https://s.hdnux.com/photos/01/05/34/40/18204700/3/1200x0.jpg",
     image:
       "https://afamilycdn.com/2017/15-fashionista-han-quoc-jina-kim-3-1509198780651.jpg",
-    view: "200000 view",
+    view: "201.001 view",
     time: "1 hour",
   },
   {
@@ -20,7 +20,7 @@ const data = [
       "https://www.mariasharapova.com/wp-content/uploads/Telegraph-Press.jpeg",
     image:
       "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2018%2F04%2Fgucci-supreme-adidas-generation-z-teens-favorite-fashion-brands-piper-jaffray-survey-01.jpg?quality=95&w=1170&cbr=1&q=90&fit=max",
-    view: "50000 view",
+    view: "50.000 view",
     time: "3 hour",
   },
   {
@@ -30,7 +30,7 @@ const data = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hans-Dieter_Flick%2C_Germany_national_football_team_%2801%29.jpg/1200px-Hans-Dieter_Flick%2C_Germany_national_football_team_%2801%29.jpg",
     image:
       "https://cdn.livekindly.co/wp-content/uploads/2018/02/emma-watson-vogue.jpg",
-    view: "30000 view",
+    view: "30.000 view",
     time: "3 hour",
   },
   {
@@ -40,7 +40,7 @@ const data = [
       "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kanye-west-s-political-party-has-a-creative-name-1594223552.jpg",
     image:
       "https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/09/27/10059468-c1fb-11e8-bfc4-8898d3e518ea_1280x720_180215.jpg?itok=RkriaS77",
-    view: "2000 view",
+    view: "2.105 view",
     time: "5 hour",
   },
   {
@@ -49,7 +49,7 @@ const data = [
     avatar:
       "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
     image: "https://i.ytimg.com/vi/eNm_4w1NANU/maxresdefault.jpg",
-    view: "1000 view",
+    view: "1.030 view",
     time: "1 hour",
   },
   {
@@ -59,7 +59,7 @@ const data = [
       "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
     image:
       "https://cdn.fashionmagazine.com/wp-content/uploads/2019/10/Paris-str-S8-RS20-7459.jpg",
-    view: "100,000 view",
+    view: "110.022 view",
     time: "2 hour",
   },
 ];
