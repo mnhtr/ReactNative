@@ -2,10 +2,6 @@ import { StyleSheet, Dimensions } from "react-native";
 const { width } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#fff",
-    marginTop: 10,
-  },
   headContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -31,6 +27,22 @@ const styles = StyleSheet.create({
     width: width,
     height: 350,
     marginTop: 10,
+  },
+  footer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: 10,
+    marginHorizontal:10,
+  },
+  icon: {
+    justifyContent: "flex-end", 
+    marginEnd: 10,
+  },
+  textTime: {
+    color: "gray",
+    fontSize: 13,
+    marginStart: 10,
   },
 });
 

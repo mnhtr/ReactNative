@@ -47,7 +47,7 @@ const Stories = () => (
     <View style={styles.reline} />
     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
       <View style={styles.container}>
-        {data.map(data => (
+        {data.map((data) => (
           <View style={{ width: 65, margin: 5, alignItems: "center" }}>
             <View style={styles.imageContainer}>
               <Image style={styles.image} source={{ uri: data.imageUri }} />

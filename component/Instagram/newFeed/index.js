@@ -2,6 +2,7 @@ import React from "react";
 import { View, Image, Text } from "react-native";
 import styles from "./style";
 import { Feather } from "@expo/vector-icons";
+import Footer from "../footer/index"
 
 const data = [
   {
@@ -66,32 +67,17 @@ const data = [
 
 const NewFeed = () => (
   <View>
-    {data.map(data => (
+    {data.map((data) => (
       <View style={styles.container}>
         <View style={styles.headContainer}>
           <View style={styles.head}>
             <Image style={styles.avatar}  source={{ uri: data.avatar }}/>
-            <Text style={styles.title}  >{data.name}</Text>
+            <Text style={styles.title} >{data.name}</Text>
           </View>
           <Feather name="more-horizontal" size={20} color="black" />
         </View>
         <Image style={styles.image}   source={{ uri: data.image }} />
-        <View style={styles.footer}>
-          <View style={{ flexDirection: "row" }}>
-            <Feather style={styles.icon} name="heart" size={20} color="black" />
-            <Feather
-              style={styles.icon}
-              name="message-circle"
-              size={20}
-              color="black"
-            />
-            <Feather style={styles.icon} name="send" size={20} color="black" />
-          </View>
-
-          <Feather name="bookmark" size={20} color="black" />
-        </View>
-        <Text style={styles.title} >{data.view}</Text>
-        <Text style={styles.textTime}>{data.time}</Text>
+        <Footer time={data.time} view={data.view}/>
       </View>
     ))}
   </View>

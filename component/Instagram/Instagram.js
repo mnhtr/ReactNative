@@ -5,6 +5,7 @@ import Constants from "expo-constants";
 import Stories from "./stories/index";
 import Header from "./header/index";
 import NewFeed from "./newFeed/index";
+import Footer from "./footer/index";
 
 export default function Instagram() {
   return (
@@ -13,6 +14,7 @@ export default function Instagram() {
       <ScrollView>
         <Stories />
         <NewFeed />
+        {/* <Footer /> */}
       </ScrollView>
       <StatusBar style="auto" />
     </SafeAreaView>
