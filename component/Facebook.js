@@ -57,7 +57,7 @@ export default function Facebook() {
         </Text>
         <TouchableOpacity style={[styles.buttonClickLogin, styles.footer]}>
           <Text style={{ color: "#0099FF", fontSize: 15 }}>
-            Tao tai khoan moi
+            Tạo tài khoản mới
           </Text>
         </TouchableOpacity>
       </View>
