@@ -3,9 +3,7 @@ import { View, Image, Text } from "react-native";
 import styles from "./style";
 import { Feather } from "@expo/vector-icons";
 
-class Footer extends Component {
-  render() {
-    return (
+const  Footer = ({ item }) => (
       <View>
         <View style={styles.footer}>
           <View style={{ flexDirection: "row" }}>
@@ -16,16 +14,16 @@ class Footer extends Component {
               size={20}
               color="black"
             />
-            <Feather style={styles.icon} name="send" size={20} color="black" />
+            <Feather name="send" size={20} color="black" />
           </View>
 
           <Feather name="bookmark" size={20} color="black" />
         </View>
-        <Text style={styles.title}>{this.props.view}</Text>
-        <Text style={styles.textTime}>{this.props.time}</Text>
+        <Text style={styles.textView}>{item.view}</Text>
+        <Text style={styles.textTime}>{item.time}</Text>
       </View>
-    );
-  }
-}
+);
+
+
 
 export default Footer;

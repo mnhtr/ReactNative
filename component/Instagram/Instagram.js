@@ -1,23 +1,21 @@
-import { SafeAreaView, StyleSheet, ScrollView } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import Constants from "expo-constants";
-import Stories from "./stories/index";
 import Header from "./header/index";
-import NewFeed from "./newFeed/index";
+import Stories from "./stories";
+import NewFeed from "./newFeed";
 
-export default function Instagram() {
-  return (
-    <SafeAreaView style={styles.container}>
-      <Header />
-      <ScrollView>
-        <Stories />
-        <NewFeed />
-      </ScrollView>
-      <StatusBar style="auto" />
-    </SafeAreaView>
-  );
-}
+const Instagram = () => (
+  <SafeAreaView style={styles.container}>
+         <Header />
+         <Stories />
+          <NewFeed />
+        <StatusBar style="auto" />
+  </SafeAreaView>
+)
+
+export default Instagram;
 
 const styles = StyleSheet.create({
   container: {
