@@ -16,7 +16,6 @@ const  Footer = ({ item }) => (
             />
             <Feather name="send" size={20} color="black" />
           </View>
-
           <Feather name="bookmark" size={20} color="black" />
         </View>
         <Text style={styles.textView}>{item.view}</Text>

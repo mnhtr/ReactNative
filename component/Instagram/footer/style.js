@@ -12,12 +12,10 @@ const styles = StyleSheet.create({
   footer: {
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center",
     marginTop: 10,
     marginHorizontal:10,
   },
   icon: {
-    justifyContent: "flex-end", 
     marginEnd: 10,
   },
   textTime: {
