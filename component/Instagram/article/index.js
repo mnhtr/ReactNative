@@ -16,7 +16,6 @@ const Article = ({ item }) => (
       <Image style={styles.image} source={{ uri: item.image }} />
       <Footer item={item} />
     </View>
-
 );
 
 export default Article;

@@ -9,8 +9,7 @@ import NewFeed from "./newFeed";
 const Instagram = () => (
   <SafeAreaView style={styles.container}>
          <Header />
-         <Stories />
-          <NewFeed />
+         <NewFeed />
         <StatusBar style="auto" />
   </SafeAreaView>
 )
